@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting JerseyStoreCEG",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting JerseyStoreCEG",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What hours are you open?", "What are your hours?", "When are you open?","What are your working hours?" ],
+      "responses": ["We're open every day 9am-9pm", "Our working hours are 9am-9pm every day"]
+     },
+    {
+      "tag": "items",
+      "patterns": ["Which items do you have?", "What kinds of items are there?", "What do you sell?"],
+      "responses": ["We sell jerseys and other sports merch", "We have jerseys and other sports merch"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["What are the different sports you sell for?", "Range of sports merch?", "What sports are present?"],
+      "responses": ["We sell merch for Cricket, Football and basketball", "We have merch for Cricket, Football and basketball"]
+    },
+    {
+      "tag": "merch",
+      "patterns": ["What are the different types of merch you sell?", "Range of merch?", "What merch?"],
+      "responses": ["We sell caps, bands, equipments, shoes, etc. Learn more by visiting (www.jerseystores.com)", "We have We sell caps, bands, equipments, shoes, etc. Learn more by visiting (www.jerseystores.com)"]
+    },
+    {
+      "tag": "online",
+      "patterns": ["Can I buy online?", "Order Online?", "Buy on website?","Have website?"],
+      "responses": ["You can place orders online by visiting this website (www.jerseystores.com)"]
+    },
+    {
+      "tag": "address",
+      "patterns": ["Where is the shop located?", "What is the address?", "Where to buy it physically?","Where to come to buy?"],
+      "responses": ["You can visit the store at No25, MR Road, Guindy, Chennai"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "What is delivery duration?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 5-7 days",
+        "Shipping takes 5-7 days"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with UPI?",
+        "Are you cash only?",
+        "What payments do you accept?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and UPI",
+        "We accept most major credit cards,debit cards and UPI"
+      ]
+    }
+  ]
+}
